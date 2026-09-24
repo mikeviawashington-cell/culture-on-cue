@@ -1,12 +1,3 @@
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
-'use client';
-
 import React, { useState } from 'react';
 import { 
   Building2, 
